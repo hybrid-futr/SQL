@@ -1,4 +1,6 @@
-# SQL
-SQL project portfolio
+# SQL: SQL project portfolio
 
-Most projects are intially built in a mySQL container on the GoormIDE (https://ide.goorm.io/) development environment. Notes will be made when this is not the case. 
+Hola! This repo will host a variety of SQL projects. 
+Most projects are initially built in a mySQL container on the GoormIDE (https://ide.goorm.io/) development environment. 
+A note will be made when this is not the case. 
+Enjoy!
