@@ -25,7 +25,7 @@ Within the mySQL CLI:
   YEAR INT,
   RUNTIME_min INT);
   
-#The following shows the table in the DATABASE and a more granular DESCRIPTION of the table. 
+#The following show the table in the DATABASE and a more granular DESCRIPTION of the table. 
   SHOW TABLES;
   DESC afi_100;
   
@@ -50,7 +50,9 @@ Within the mySQL CLI:
   VALUES (9, 'Vertigo', 1958 , 129);
   INSERT INTO afi_100 (RANK, NAME, YEAR, RUNTIME_min)
   VALUES (10, 'The Wizard of Oz', 1939, 112);
-  
+
+#OR
+
 #The following populates the TABLE categories all at once. This method is much less cumbersome. 
   INSERT INTO afi_100 (RANK, NAME, YEAR, RUNTIME_min)
   VALUES (1, 'Citizen Kane', 1941, 119),
@@ -64,7 +66,7 @@ Within the mySQL CLI:
   (9, 'Vertigo', 1958 , 129),
   (10, 'The Wizard of Oz', 1939, 112),
   
-#The following command shows the populated table.
+#Let's see the populated table.
   SELECT * FROM afi_100
   
 #Viola! Now we have a short list of movies and their runtimes for a rainy day :)
