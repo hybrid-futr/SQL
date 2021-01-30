@@ -51,7 +51,7 @@ Within the mySQL CLI:
   INSERT INTO afi_100 (RANK, NAME, YEAR, RUNTIME_min)
   VALUES (10, 'The Wizard of Oz', 1939, 112);
   
-#The following populates the TABLE categories all at once. 
+#The following populates the TABLE categories all at once. This method is much less cumbersome. 
   INSERT INTO afi_100 (RANK, NAME, YEAR, RUNTIME_min)
   VALUES (1, 'Citizen Kane', 1941, 119),
   (2, 'The Godfather', 1972, 178),
