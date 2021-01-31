@@ -1,35 +1,35 @@
-#This project highlights SQL's ability to build a DATABASE with TABLES rapidly from scratch. 
-#The rows in the TABLES can be added in two different ways, individually, or all at once, i.e. 'Multiple Insert'.
-#The data that I decided to categorize for this project are the first ten films of the AFI Top 100 (https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/).
-#The categories are RANK, NAME, YEAR, and RUNTIME_min.
-#The datatypes will be VARCHAR and INT.
-#This code will be expanded upon in future projects. 
+/* This project highlights SQL's ability to build a DATABASE with TABLES rapidly from scratch. 
+The rows in the TABLES can be added in two different ways, individually, or all at once, i.e. 'Multiple Insert'.
+The data that I decided to categorize for this project are the first ten films of the AFI Top 100 (https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/).
+The categories are RANK, NAME, YEAR, and RUNTIME_min.
+The datatypes will be VARCHAR and INT.
+This code will be expanded upon in future projects. */ 
 
 
 Within the mySQL CLI:
 
 
-#A preliminary check of available DATABASES. 
+-- A preliminary check of available DATABASES. 
   SHOW DATABASES; 
 
-#Creating the initial DATABASE.
+-- Creating the initial DATABASE.
   CREATE DATABASE afi_movies;
 
-#'Grabbing' the DATABASE for use. 
+--'Grabbing' the DATABASE for use. 
   USE afi_movies;
 
-#Creating a TABLE in the DATABASE.
+--Creating a TABLE in the DATABASE.
   CREATE TABLE afi_100
   (RANK INT,
   NAME VARCHAR(50),
   YEAR INT,
   RUNTIME_min INT);
   
-#The following show the table in the DATABASE and a more granular DESCRIPTION of the table. 
+--The following show the table in the DATABASE and a more granular DESCRIPTION of the table. 
   SHOW TABLES;
   DESC afi_100;
   
-#The following populates the TABLE categories individually. 
+--The following populates the TABLE categories individually. 
   INSERT INTO afi_100 (RANK, NAME, YEAR, RUNTIME_min)
   VALUES (1, 'Citizen Kane', 1941, 119);
   INSERT INTO afi_100 (RANK, NAME, YEAR, RUNTIME_min)
@@ -51,9 +51,9 @@ Within the mySQL CLI:
   INSERT INTO afi_100 (RANK, NAME, YEAR, RUNTIME_min)
   VALUES (10, 'The Wizard of Oz', 1939, 112);
 
-#OR
+--OR
 
-#The following populates the TABLE categories all at once. This method is much less cumbersome. 
+--The following populates the TABLE categories all at once. This method is much less cumbersome. 
   INSERT INTO afi_100 (RANK, NAME, YEAR, RUNTIME_min)
   VALUES (1, 'Citizen Kane', 1941, 119),
   (2, 'The Godfather', 1972, 178),
@@ -66,10 +66,10 @@ Within the mySQL CLI:
   (9, 'Vertigo', 1958 , 129),
   (10, 'The Wizard of Oz', 1939, 112),
   
-#Let's see the populated table.
+--Let's see the populated table.
   SELECT * FROM afi_100
   
-#Viola! Now we have a short list of movies and their runtimes for a rainy day :)
+--Viola! Now we have a short list of movies and their runtimes for a rainy day :)
 
   
   
