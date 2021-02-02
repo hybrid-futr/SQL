@@ -1,7 +1,14 @@
-#The following is an excercise which builds a company DATABASE with a TABLE of employees.
+#The following project builds a company DATABASE with a TABLE of employees.
 #We use the AUTO_INCREMENT keyword here which allows a unique number to be generated automatically when a new row is inserted in the table.
 #We also use the NOT NULL condition which enforces a column to not accept NULL values. 
 #We can use the DEFAULT command to set a default value for a column, and the PRIMARY KEY constraint to set a unique record number.  
+
+
+#Within the mySQL CLI:
+
+
+#A preliminary check of available DATABASES. 
+SHOW DATABASES; 
 
 #Let's create the DATABASE and then create the TABLE.
 CREATE DATABASE company;
@@ -21,8 +28,9 @@ CREATE TABLE employees (
     PRIMARY KEY (id)
 );
 
-#The second solution has PRIMARY KEY defined on the first line. 
+#OR
 
+#The second solution has PRIMARY KEY defined on the first line. 
 CREATE TABLE employees (
     id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
     last_name VARCHAR(50) NOT NULL,
