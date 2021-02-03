@@ -1,9 +1,8 @@
-#This project highlights SQL's ability to build a DATABASE with TABLES rapidly from scratch. 
+#This excercise highlights SQL's ability to build a DATABASE with TABLES rapidly from scratch. 
 #The rows in the TABLES can be added in two different ways, individually, or all at once, i.e. 'Multiple Insert'.
 #The data that I decided to categorize for this project are the first ten films of the AFI Top 100 (https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/).
 #The categories are RANK, NAME, YEAR, and RUNTIME_min.
 #The datatypes will be VARCHAR and INT.
-#This code will be expanded upon in future projects.
 
 
 #Within the mySQL CLI:
