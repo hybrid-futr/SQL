@@ -16,7 +16,7 @@ SHOW DATABASES;
 CREATE DATABASE afi_movies;
 
 #Access the DATABASE for use. 
-USE afi_movies;
+USE afi_movies
 
 #Creating a TABLE in the DATABASE.
 CREATE TABLE afi_100
