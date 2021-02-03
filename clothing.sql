@@ -2,6 +2,9 @@
 #This exercise practices the building out of basic structures and then implements CRUD commands. 
 #The setup is that we have to categorize a variety of clothes. 
 
+#Open the command line
+mysql-ctl cli
+
 CREATE DATABASE shirt_db;
 
 SHOW DATABASES;
