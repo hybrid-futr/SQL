@@ -6,7 +6,7 @@
 
 
 #Within the mySQL CLI:
-
+mysql-ctl cli
 
 #A preliminary check of available DATABASES. 
 SHOW DATABASES; 
