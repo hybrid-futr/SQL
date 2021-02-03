@@ -13,7 +13,8 @@ SHOW DATABASES;
 #Let's create the DATABASE and then create the TABLE.
 CREATE DATABASE company;
 
-USE company;
+#Access the db.
+USE company
 
 #The condition for the TABLE is that we have an employee id which auto increments, first, middle and last names, an age, and a current employment status.
 #We cannot have NULL entries for the id, the first and last name, and the current empoyment status.
