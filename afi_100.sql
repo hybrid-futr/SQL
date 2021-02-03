@@ -7,8 +7,8 @@
 #The datatypes will be VARCHAR and INT.
 
 
-#Within the mySQL CLI:
-
+#Within the MySQL CLI:
+mysql-ctl cli
 
 #A preliminary check of available DATABASES. 
 SHOW DATABASES; 
