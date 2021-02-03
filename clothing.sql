@@ -2,9 +2,10 @@
 #This exercise practices the building out of basic structures and then implements CRUD commands. 
 #The setup is that we have to categorize a variety of clothes. 
 
-#Open the command line. Create a DATABASE and a TABLE. 
+#Open the command line.
 mysql-ctl cli
 
+#Create a DATABASE and a TABLE. 
 CREATE DATABASE shirt_db;
 
 SHOW DATABASES;
