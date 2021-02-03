@@ -1,4 +1,4 @@
-#This project practices the building out of basic structures and then implements CRUD commands. 
+#This excercise practices the building out of basic structures and then implements CRUD commands. 
 #The setup is that we have to categorize a variety of clothes. 
 
 CREATE DATABASE shirt_db;
