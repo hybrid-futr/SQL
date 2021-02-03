@@ -1,4 +1,4 @@
-#The following excercise builds a company DATABASE with a TABLE of employees.
+#The following exercise builds a company DATABASE with a TABLE of employees.
 #We use the AUTO_INCREMENT keyword here which allows a unique number to be generated automatically when a new row is inserted in the table.
 #We also use the NOT NULL condition which enforces a column to not accept NULL values. 
 #We can use the DEFAULT command to set a default value for a column, and the PRIMARY KEY constraint to set a unique record number.  
