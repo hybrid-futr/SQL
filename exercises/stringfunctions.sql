@@ -6,7 +6,7 @@
 ##This makes it easy to edit an external file and update the code more easily. 
 ##Viola!
 
-#For this excerise we're going to create a database for a small book_shop.
+#For this excerise we're going to create a database for a small book shop.
 #I'm doing the following to the database:
 #-creating and populating a table called 'books'. 
 #-practicing simple functions on the tables columns. 
@@ -52,7 +52,7 @@ VALUES
 ('Consider the Lobster', 'David', 'Foster Wallace', 2005, 92, 343);
 
 
-#SIMPLE FUNCTIONS: The following are simple examples of passing columns to functions.
+#SIMPLE STRUCTURES: The following are examples of passing columns to simple function structures.
 
 #  SELECT 
 #      CONCAT
@@ -87,17 +87,12 @@ VALUES
 # SELECT CONCAT('MY FAVORITE BOOK IS ', LOWER(title)) FROM books;
 
 
+#COMPLEX STRUCTURES: The following are examples of more complex function structures. 
+#Lets start with reversing the character order of the string in the following sentence and printing the characters in uppercase.
 
+# SELECT UPPER(REVERSE('Why does does everything look blue at dusk and dawn?'));
 
-#COMPLEX FUNCTIONS: The following are examples of nested functions. 
-
-#Reverse and Uppercase the following sentence.ALTER
-
-# SELECT UPPER(REVERSE('Why does my cat look at me with such hatred?'));
-
-
-# SELECT REVERSE(UPPER('Why does my cat look at me with such hatred?'));
-
+#Ok, now back to the  'book' table. 
 
 # SELECT 
 #     REPLACE
