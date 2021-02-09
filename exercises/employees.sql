@@ -4,9 +4,6 @@
 #We also use the NOT NULL condition which enforces a column to not accept NULL values. 
 #We can use the DEFAULT command to set a default value for a column, and the PRIMARY KEY constraint to set a unique record number.  
 
-#Within the mySQL CLI:
-mysql-ctl cli
-
 #A preliminary check of available DATABASES. 
 SHOW DATABASES; 
 
