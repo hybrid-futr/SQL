@@ -18,7 +18,7 @@ SHOW DATABASES;
 
 CREATE DATABASES book_shop;
 
-USE book_shop;
+USE book_shop
 
 CREATE TABLE books 
 	(
