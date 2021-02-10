@@ -45,4 +45,4 @@ FROM books
 ORDER BY author_lname
 ;
 
-#Hopefully this was a good workout for some simple keywords and wildcard permutations.
+#Hopefully this was a good workout for some simple keyword and wildcard permutations.
