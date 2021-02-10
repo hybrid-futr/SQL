@@ -1,4 +1,5 @@
 #Jan 2021:
+
 #This exercise highlights SQL's ability to build a DATABASE with TABLES rapidly from scratch. 
 #The rows in the TABLES can be added in two different ways, individually, or all at once, i.e. 'Multiple Insert'.
 #The data that I chose to categorize for this project are the first ten films of the AFI Top 100.
@@ -7,7 +8,7 @@
 #The datatypes will be VARCHAR and INT.
 
 
-#Within the MySQL CLI:
+#Within the MySQL cli:
 mysql-ctl cli
 
 #A preliminary check of available DATABASES. 
