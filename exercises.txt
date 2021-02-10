@@ -1,4 +1,4 @@
-#The exercises are from the following source(s):
+#The exercises use the following source(s):
 
 #Colt Steele's MySQL bootcamp on Udemy (https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/).
 
