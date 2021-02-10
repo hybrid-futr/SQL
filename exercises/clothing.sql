@@ -1,4 +1,5 @@
 #Feb 2021:
+
 #This exercise practices the building out of basic structures and then implements CRUD commands. 
 #The setup is that we have to categorize a variety of clothes. 
 
