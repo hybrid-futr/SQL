@@ -1,4 +1,4 @@
-#Feb 2021: notes + exercise
+#Feb 2021: 
 
 ##The following is important to know:##
 
