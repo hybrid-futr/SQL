@@ -1,0 +1,6 @@
+#The exercises are from the following source(s):
+
+#Colt Steele's MySQL bootcamp on Udemy (https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/).
+
+#This list will be updated as more sources are added.
+#created: 2/9/2021 - JFR
