@@ -1,4 +1,4 @@
-#Feb 2021: refinining selections exercise. 
+#Feb 2021: 
 
 #I'm going to test out the following keywords on the 'books' table from the 'book_store' database:
 #DISTINCT, ORDER BY, LIMIT, LIKE and the wildcards '%' and '_'.
