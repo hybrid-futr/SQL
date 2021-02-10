@@ -2,9 +2,8 @@
 
 ##The following is important to know:##
 
-##You can execute an sql file using the 'source' command before the path to the file, i.e. 'folder/file.sql', in the cli.
-##This makes it easy to edit an external file and update the code more easily. 
-##Viola!
+##You can execute a file using the 'source' command before the path to the file, i.e. 'folder/file.sql', in the cli.
+##This makes editing and updating an external file easier. 
 
 #For this exercise we're going to create a database for a small book shop.
 #I'm doing the following to the database:
