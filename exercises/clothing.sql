@@ -1,6 +1,6 @@
 #Feb 2021:
 
-#This exercise practices the building out of basic structures and then implements CRUD commands. 
+#This exercise practices building out basic structures and implementing CRUD commands. 
 #The setup is that we have to categorize a variety of clothes. 
 
 #Create a DATABASE and a TABLE. 
