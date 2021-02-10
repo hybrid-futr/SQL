@@ -6,7 +6,7 @@
 ##This makes it easy to edit an external file and update the code more easily. 
 ##Viola!
 
-#For this excerise we're going to create a database for a small book shop.
+#For this exercise we're going to create a database for a small book shop.
 #I'm doing the following to the database:
 #-creating and populating a table called 'books'. 
 #-practicing simple functions on the tables columns. 
