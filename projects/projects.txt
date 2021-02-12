@@ -1,0 +1,6 @@
+#This folder contains independent projects. Sources are listed below:
+
+# --
+
+#This list will be updated as sources are added.
+#created: 2/12/2021 - JFR
