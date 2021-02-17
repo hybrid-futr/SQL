@@ -1,3 +1,7 @@
+#Feb 2021:
+
+#This table is used for the following exercises. 
+
 CREATE TABLE books 
 	(
 		book_id INT NOT NULL AUTO_INCREMENT,
