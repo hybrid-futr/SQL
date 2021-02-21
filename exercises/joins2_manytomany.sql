@@ -137,7 +137,7 @@ LEFT JOIN reviews
 ON reviewers.id = reviews.reviewer_id
 GROUP BY reviewers.id;
 
-#Finally, wer're going to put all threee tables in the following way:
+#Finally, we're going to connect all three tables in the following way:
 #Using title, rating, and reviewer.
 SELECT title, rating, CONCAT(first_name,' ',last_name) AS 'NAME' FROM reviewers
 JOIN reviews
