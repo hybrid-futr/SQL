@@ -112,7 +112,7 @@ WHERE series_id IS NULL;
 #NOTE: We use a 'LEFT JOIN' here in order to get NULL values for certain fields so we can select out the relevant series. 
 
 #Select out 'genre' and 'avg_rating' by 'genre'.
-#We also introduce the 'ROUND()' fx in order to round the decimal places when average. 
+#We also introduce the 'ROUND()' fx in order to round the decimal places when we average. 
 SELECT genre, ROUND(AVG(rating), 2) AS 'avg_rating' FROM series
 INNER JOIN reviews
 ON series.id = reviews.series_id
