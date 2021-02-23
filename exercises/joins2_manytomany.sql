@@ -112,7 +112,7 @@ WHERE series_id IS NULL;
 #NOTE: We use a 'LEFT JOIN' here in order to get NULL values for certain fields so we can select out the relevant series. 
 
 #Select out 'genre' and 'avg_rating' by 'genre'.
-#We also introduce the 'ROUND()' fx in order to round the decimal places when average. 
+#We also introduce the 'ROUND()' fx in order to round the decimal places when we average. 
 SELECT genre, ROUND(AVG(rating), 2) AS 'avg_rating' FROM series
 INNER JOIN reviews
 ON series.id = reviews.series_id
@@ -137,7 +137,7 @@ LEFT JOIN reviews
 ON reviewers.id = reviews.reviewer_id
 GROUP BY reviewers.id;
 
-#Finally, wer're going to put all threee tables in the following way:
+#Finally, we're going to connect all three tables in the following way:
 #Using title, rating, and reviewer.
 SELECT title, rating, CONCAT(first_name,' ',last_name) AS 'NAME' FROM reviewers
 JOIN reviews
