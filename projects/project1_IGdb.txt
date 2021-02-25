@@ -1,4 +1,6 @@
 #Feb 2021: project1
 
-#This schema is effectively a copy of the IG database. 
-#We want to be able to make a dynamic DB that's as close to the real thing as possible. 
+#This project is replica of the IG database schemas.
+#I split the MySQL files into two parts: 1 part for schemas, 1 part for operations on the schemas. 
+
+#We want to be able to make a dynamic database that's as close to the real thing as possible. 
