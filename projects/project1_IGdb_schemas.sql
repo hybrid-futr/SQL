@@ -95,4 +95,4 @@ CREATE TABLE photo_tags (
 #Check table.
 DESC photo_tags;
 
-#We're done building schemas! Finally :) 
+#We're done building schemas! Finally :)
