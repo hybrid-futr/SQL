@@ -1,6 +1,8 @@
-#The exercises are taken from the following source(s) and updated with my own data and notes:
+The exercises are taken from the following source(s) and updated with my own data and notes:
 
-#Colt Steele's MySQL bootcamp on Udemy (https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/).
+- Colt Steele's MySQL bootcamp on Udemy (https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/).
 
-#This list will be updated as sources are added.
+This list will be updated as sources are added.
+
 #created: 2/9/2021 - JFR
+#updated: 3/15/2021 - JFR
