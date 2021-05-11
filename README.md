@@ -1,6 +1,4 @@
-# MySQL: portfolio
-
-Hola! 
+# MySQL portfolio
 
 This repo hosts a variety of MySQL excercises and projects. 
 
