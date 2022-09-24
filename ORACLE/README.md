@@ -1,5 +1,5 @@
 # ORACLE 
 
-**DEV GYM CERTRICATES**
+**DEV GYM CERTIFICATES**
 
 - Databases for Developers: Foundations
