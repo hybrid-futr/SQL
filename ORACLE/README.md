@@ -2,4 +2,4 @@
 
 **DEV GYM CERTIFICATES**
 
-- Databases for Developers: Foundations
+- Databases for Developers: Foundations (dbfordevs_foundations.pdf)
