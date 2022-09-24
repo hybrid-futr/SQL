@@ -1,4 +1,4 @@
-#Feb 2021: project1
+Feb 2021: project1
 
 #This project is replica of the IG database schemas.
 #I split the MySQL files into two parts: 1 part for schemas, 1 part for operations on the schemas. 
